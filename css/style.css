@@ -1,0 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,700&display=swap");
+
+body {
+  background: #33283b;
+  font-family: "Montserrat";
+  font-weight: 400;
+  outline: none;
+}
+
+/* Header Start */
+/* Navbar Start */
+header {
+  margin-top: 1rem;
+}
+
+header nav {
+  /* position: sticky !important; */
+  top: 0;
+  z-index: 2;
+}
+
+header .navbar .navbar-nav {
+  margin: 0 7rem 0 11rem;
+}
+
+header .navbar .navbar-nav .nav-item {
+  padding: 0 0.5rem;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.914rem;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+  background-image: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+header .navbar .btn,
+header .header-main .main-content .btn,
+main #intro .about-hydra .about-hydra-content .btn {
+  width: 9.625rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+
+header .navbar .btn:last-child {
+  margin-right: 0;
+}
+
+header .navbar .btn-primary {
+  border: 2px solid #ffffff;
+  background: transparent;
+  transition: 0.5s ease;
+}
+
+header .navbar .btn-primary:hover {
+  background: linear-gradient(90deg, #8176af 0, #c0b7e8 100%);
+  color: #343045;
+  border: none;
+}
+
+header .navbar .btn-success,
+header .header-main .main-content .btn-success,
+main #intro .about-hydra .about-hydra-content .btn-success,
+main #services .service .content-bottom .btn-success,
+main form .form .btn-success
+{
+  background: linear-gradient(90deg, #8176af 0, #c0b7e8 100%);
+  color: #343045;
+  border: none;
+  transition: 0.5s ease;
+}
+
+header .navbar .btn-success:hover,
+header .header-main .main-content .btn-success:hover,
+main #intro .about-hydra .about-hydra-content .btn-success:hover,
+main #services .service .content-bottom .btn-success:hover,
+main form .form .btn-success:hover
+{
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+}
+/* Navbar End */
+
+/* Header-main Start */
+
+header .header-main {
+  padding: 7rem 0;
+}
+
+header .header-main .main-content::before {
+  content: "";
+  background-image: url(/images/line-1.png);
+  position: absolute;
+  top: 12rem;
+  left: -2rem;
+  z-index: -1;
+  width: 14.875rem;
+  height: 35.063rem;
+}
+
+header .header-main .main-content h1 {
+  font-weight: 700;
+  font-size: 2.875rem;
+  line-height: 3.5rem;
+  color: #ffffff;
+  width: 32rem;
+}
+
+header .header-main .main-content h1 .colorful {
+  background-image: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+header .header-main .main-content p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+  margin: 2rem 0;
+  width: 28.125rem;
+}
+
+header .header-main .main-content .btn {
+  width: 13.375rem;
+  height: 3rem;
+  outline: none;
+  border: none;
+}
+
+header .header-main .main-content::after {
+  content: "";
+  background-image: url("/images/line-3.png");
+  width: 45.938rem;
+  height: 26.188rem;
+  position: absolute;
+  top: 27rem;
+  right: 0%;
+  z-index: -2;
+}
+
+header .header-main .main-image::before {
+  content: "";
+  background-image: url("/images/line-2.png");
+  width: 23.563rem;
+  height: 52.813rem;
+  position: absolute;
+  top: 0rem;
+  right: 9rem;
+  z-index: -2;
+  background-repeat: no-repeat;
+}
+
+header .header-main .main-image img {
+  background: rgba(0, 0, 0, 0.13);
+  padding: 0.5rem;
+  padding-top: 0.8rem;
+  padding-right: 0.7rem;
+  border-radius: 100px 100px 100px 240px;
+}
+
+header .header-main .main-image {
+  padding-left: 3rem;
+}
+
+header .header-main .main-image::after {
+  content: "";
+  background-image: url("/images/line-1-1.png");
+  width: 25.875rem;
+  height: 41.813rem;
+  position: absolute;
+  top: 9rem;
+  right: 1rem;
+  z-index: -2;
+}
+
+header .header-main .main-info {
+  background: radial-gradient(
+    50% 2900.76% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 90px;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+header .header-main .main-info .info-content {
+  display: inline-block;
+}
+
+header .header-main .main-info .info-content .info-image {
+  padding: 1rem;
+}
+
+header .header-main .main-info .info-content .content-left {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+header .header-main .main-info .info-content .content-left h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+}
+
+header .header-main .main-info .info-content span {
+  height: 7.281rem;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+  margin: 0 2rem;
+}
+
+header .header-main .main-info .info-content .content-left p {
+  display: inline-block;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.067rem;
+}
+
+/* Header-main End */
+
+/* Header End */
+
+/* Main Section Start */
+
+/* Intro Section Start */
+
+main #intro {
+  margin-top: -2rem;
+  color: #ffffff;
+}
+
+main #intro .content-left h3,
+main #intro .about-hydra .about-hydra-content h3,
+main #how-we-build .content-left h4 {
+  width: 18.625rem;
+  font-weight: 300;
+  font-size: 2.25rem;
+  line-height: 2.743rem;
+  display: inline-block;
+}
+
+main #intro .content-left h3 strong,
+main #intro .about-hydra .about-hydra-content h3 strong,
+main #how-we-build .content-left h4 strong {
+  font-weight: 700;
+}
+
+main #intro .content-left img,
+main #how-we-build .content-left img {
+  margin-bottom: 1rem;
+}
+
+main #intro .content-right p,
+main #intro .about-hydra .about-hydra-content p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.219rem;
+}
+
+main #intro .about-hydra {
+  margin-top: 1rem;
+}
+
+main #intro .about-hydra .about-hydra-img {
+  width: 32.75rem;
+  height: 34.813rem;
+}
+
+main #intro .about-hydra .about-hydra-content {
+  padding-top: 3rem;
+}
+
+main #intro .about-hydra .about-hydra-content h3 {
+  width: 12rem;
+  display: block;
+}
+
+main #intro .about-hydra .about-hydra-content p {
+  margin-top: 2rem;
+}
+
+main #intro .about-hydra .about-hydra-content .btn {
+  width: 13.375rem;
+  margin-top: 1rem;
+}
+
+main #intro .about-hydra .about-hydra-content::before {
+  content: "";
+  background-image: url(/images/line-7.png);
+  width: 84.25rem;
+  height: 16.043rem;
+  position: absolute;
+  left: 0rem;
+  bottom: -45rem;
+  z-index: -2;
+}
+
+main #intro .about-hydra .about-hydra-content::after {
+  content: "";
+  background-image: url(/images/line-8.png);
+  background-repeat: no-repeat;
+  width: 84.25rem;
+  height: 16.043rem;
+  position: absolute;
+  left: 0rem;
+  bottom: -64rem;
+  z-index: -2;
+}
+
+main #intro .build-hydra {
+  margin-top: 6rem;
+}
+
+/* Intro Section End */
+
+/* Service Section Start */
+
+main #services {
+  padding: 4rem 0;
+  color: #ffffff;
+}
+
+main #services::before {
+  content: "";
+  background: url("/images/line-14.png");
+  position: absolute;
+  width: 84.3rem;
+  height: 50.875rem;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+main #services .service {
+  width: 18.375rem;
+  height: 33.938rem;
+  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+  border-radius: 2.5rem;
+  margin-left: 1rem;
+}
+
+main #services .service .content-top {
+  margin: 1rem 2rem 0 2rem;
+  width: 13.688rem;
+  background: rgba(14, 14, 14, 0.32);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+main #services .service .content-bottom {
+  padding: 2rem 0;
+}
+
+main #services .service .content-bottom h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.813rem;
+}
+
+main #services .service .content-bottom .line {
+  width: 9.625rem;
+  border: 1px solid rgba(192, 183, 232, 0.33);
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+main #services .service .content-bottom p {
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+main #services .service .content-bottom .btn {
+  width: 9.625rem;
+  height: 3rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #343045;
+  border-radius: 2.5rem;
+  margin-top: 1rem;
+}
+
+main #services .tech-hardware {
+  background: url("/images/img-tech-hardware.png");
+  width: 78.75rem;
+  height: 18.938rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6rem;
+}
+
+main #services .tech-hardware h4 {
+  margin: 0 auto;
+  margin-top: 7rem;
+  width: 36.125rem;
+  font-weight: 300;
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+
+main #services .tech-hardware h4 strong {
+  font-weight: 700;
+}
+
+main #services .tech-hardware .bg-black {
+  background: rgba(14, 14, 14, 0.32);
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.8rem;
+  margin-top: 3rem;
+}
+
+main #services .tech-hardware .bg-black img {
+  background: linear-gradient(267.61deg, #c0b7e8 -0.6%, #8176af 98.31%);
+  border-radius: 50%;
+}
+
+main #services .companies {
+  margin-top: 2rem;
+}
+
+main #services .companies img {
+  margin-right: 4rem;
+}
+
+main #services .companies img:first-child {
+  margin-left: 2rem;
+}
+
+main #services .companies img:last-child {
+  margin-right: 0;
+}
+
+main #how-we-build {
+  color: #ffffff;
+}
+
+main #how-we-build .content-left h4 {
+  width: 20.063rem;
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+
+main #how-we-build .steps {
+  margin-top: 6rem;
+}
+
+main #how-we-build .steps::before {
+  content: "";
+  background: url("images/line-15.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 84.3rem;
+  height: 12rem;
+  z-index: -2;
+  left: 0;
+}
+
+main #how-we-build .steps .step {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1.9rem;
+}
+
+main #how-we-build .steps .step:first-child {
+  margin-left: 0;
+}
+
+main #how-we-build .steps .step:last-child {
+  margin-right: 0;
+}
+
+main #how-we-build .steps .bg-black {
+  background: rgba(13, 13, 13, 0.32);
+  width: 12.375rem;
+  height: 12.375rem;
+  border-radius: 50%;
+  padding: 1.3rem 1rem 1rem 1.3rem;
+}
+
+main #how-we-build .steps .content-top .bg-black h4 {
+  background: linear-gradient(251.27deg, #c0b7e8 12.87%, #8176af 89.33%);
+  width: 9.938rem;
+  height: 9.938rem;
+  border-radius: 50%;
+  padding: 2.5rem 0;
+  margin: 0;
+  color: #343045;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+main #how-we-build .steps .content-bottom {
+  margin-top: 1rem;
+}
+
+main #how-we-build .steps .content-bottom img {
+  width: 4.188rem;
+  padding-bottom: 4rem;
+}
+
+main #how-we-build .steps .content-bottom p {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  width: 11.688rem;
+}
+
+/* Service Section End */
+
+/* Form Start */
+
+main form {
+  margin-top: 4rem;
+}
+
+main form .form {
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6.25rem;
+  width: 78.75rem;
+  height: 54rem;
+  padding: 6rem;
+}
+
+main form .form .content-top h5{
+   color: #ffffff;
+   font-weight: 700;
+   font-size: 2.25rem;
+}
+
+main form .form .content-top p {
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 2.25rem;
+}
+
+main form .form input {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2.5rem;
+  width: 32.75rem;
+  height: 4rem;
+}
+
+main form .form textarea {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2.5rem;
+  width: 66.125rem;
+  height: 13.125rem;
+}
+
+main form .form .form-control {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+}
+
+main form .form .special {
+  width: 67rem;
+}
+
+main form .form input::placeholder {
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+main form .form textarea::placeholder {
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+
+main form .form .form-control:focus{
+  background: transparent;
+  color: #ffffff;
+}
+
+main form .form .btn {
+  display: inline-block;
+  width: 13.375rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  color: #343045;
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin: 3rem auto;
+}
+
+
+/* Form End */
+
+
+/* Main Section End */
+
+/* Footer Start */
+
+footer {
+  margin-top: 7rem;
+  color: #ffffff;
+}
+
+footer .logo {
+  display: inline-block;
+}
+
+footer .line {
+  margin-left: 5rem;
+}
+
+footer .navigation {
+  display: flex;
+  justify-content: center;
+}
+
+footer .navbar-nav {
+  display: inline-flex;
+}
+
+footer .navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+footer .social-bar h5 {
+ font-weight: 700;
+ margin-bottom: 3rem;
+ font-size: 1rem;
+}
+
+footer .social-bar .social-media img {
+  margin: 0 .4rem;
+}
+
+footer .footer-copyright {
+  margin-top: 3rem;
+}
+
+footer .footer-copyright p {
+  padding: 2rem 0;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  background: url("/images/");
+}
+
+/* Footer End */
+
