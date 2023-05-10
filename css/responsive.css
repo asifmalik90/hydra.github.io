@@ -1,0 +1,49 @@
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 8px;
+  }
+
+  header .header-main {
+    padding: 1rem 0.5rem;
+  }
+
+  header .header-main .main-image {
+    padding-left: 0rem;
+  }
+
+  header .header-main .main-content h1 {
+    font-size: 2rem;
+    width: 25.625rem;
+    padding: 2rem 1.5rem;
+  }
+
+  header .header-main .main-content .btn {
+    width: 18.25rem;
+    height: 3.25rem;
+    margin: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
